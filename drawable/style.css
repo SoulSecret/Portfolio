@@ -1,0 +1,14 @@
+.blinking-cursor {
+    animation: blink 0.7s steps(1) infinite;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    height: 100vh;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
