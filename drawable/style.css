@@ -9,12 +9,19 @@ nav {
     border-bottom: 1px solid #ddd; /* Optional: Add a border for better separation */
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 html {
     scroll-behavior: smooth;
+}
+section {
+    padding-top: 70px;
+    height: 100vh;
 }
 @keyframes blink {
     50% {
         opacity: 0;
     }
 }
-
