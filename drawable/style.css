@@ -1,14 +1,20 @@
 .blinking-cursor {
     animation: blink 0.7s steps(1) infinite;
 }
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: white; /* Match the background to avoid transparency issues */
+    border-bottom: 1px solid #ddd; /* Optional: Add a border for better separation */
+}
+
 html {
     scroll-behavior: smooth;
-}
-section {
-    height: 100vh;
 }
 @keyframes blink {
     50% {
         opacity: 0;
     }
 }
+
